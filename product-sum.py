@@ -1,4 +1,7 @@
 def productSum(array, multiplier = 1):
+    """
+    Time O(n) | Space(d) where 'd' is depth of array
+    """
     sum = 0
     for num in array:
         if type(num) is list:
